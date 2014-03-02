@@ -1,4 +1,3 @@
-
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -85,15 +84,14 @@
 (global-set-key (kbd "RET") 'newline-and-indent)
 
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(current-language-environment "UTF-8")
  '(custom-enabled-themes (quote (tango-dark)))
  '(flycheck-highlighting-mode (quote lines))
-;; '(jabber-account-list (quote (("ilya.rambazamba@chat.facebook.com" (:network-server . "chat.facebook.com") (:port . 5222) (:connection-type . starttls)))))
+ '(jabber-account-list (quote (("ilya.rambazamba@chat.facebook.com" (:network-server . "chat.facebook.com") (:port . 5222) (:connection-type . starttls)))))
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
  '(size-indication-mode t)
  '(tool-bar-mode nil))
+
+;; python stuff
+(require 'pydoc-info)
